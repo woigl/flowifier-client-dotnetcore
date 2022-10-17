@@ -1,0 +1,20 @@
+version: 1
+
+sources:
+  #Files or Directories to be Excluded are mentioned in exclusions
+  exclusions:
+    - 'FlowifierClient.NUnit'
+    - 'FlowifierClient.TestApp'
+
+modules:
+  - name: gamma_cs
+    enabled: true
+    rules:
+      - key: 'HardCodedURL'
+        enabled: false
+      - key: 'MissingParameterNullCheck'
+        enabled: false
+  - name: mstest
+    enabled: true
+  - name: coverlet
+    enabled: true

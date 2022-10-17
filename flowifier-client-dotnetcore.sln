@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowifierClient.Library", "FlowifierClient.Library\FlowifierClient.Library.csproj", "{697D2FB0-B89C-4CEE-B8C8-63FD587DAEC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowifierClient.TestApp", "FlowifierClient.TestApp\FlowifierClient.TestApp.csproj", "{5E82FE63-166D-4B67-B107-FAE7190D9071}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowifierClient.NUnit", "FlowifierClient.NUnit\FlowifierClient.NUnit.csproj", "{5A578C87-4150-44DD-A8EB-0655CBB593A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61164B8B-B72C-4F18-9608-9AB5B2AE4FBC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		embold.yaml = embold.yaml
+		PUBLISH.md = PUBLISH.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{697D2FB0-B89C-4CEE-B8C8-63FD587DAEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697D2FB0-B89C-4CEE-B8C8-63FD587DAEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697D2FB0-B89C-4CEE-B8C8-63FD587DAEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697D2FB0-B89C-4CEE-B8C8-63FD587DAEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E82FE63-166D-4B67-B107-FAE7190D9071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E82FE63-166D-4B67-B107-FAE7190D9071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E82FE63-166D-4B67-B107-FAE7190D9071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E82FE63-166D-4B67-B107-FAE7190D9071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A578C87-4150-44DD-A8EB-0655CBB593A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A578C87-4150-44DD-A8EB-0655CBB593A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A578C87-4150-44DD-A8EB-0655CBB593A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A578C87-4150-44DD-A8EB-0655CBB593A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BEEC0F3-ACEF-4E50-B4AE-BC15FF4D52BD}
+	EndGlobalSection
+EndGlobal
