@@ -4,8 +4,11 @@
     <TargetFrameworks>net6.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Authors>Flowifier</Authors>
-    <VersionPrefix>0.9.2</VersionPrefix>
+    <VersionPrefix>0.9.5</VersionPrefix>
+    <Authors>Stefan Walter</Authors>
+    <Company>Flowifier</Company>
+    <Product>Flowifier .NET Core Client Library</Product>
+    <Copyright>Copyright © Stefan Walter 2022</Copyright>
     <PackageProjectUrl>https://flowifier.com</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>flowifier;client;library;</PackageTags>
@@ -14,13 +17,15 @@
     <RootNamespace>FlowifierClient</RootNamespace>
     <Title>Flowifier Client</Title>
     <Description>Flowifier client to conviniently and directly interact with the Flowifier application.</Description>
+    <Summary>Flowifier client to conviniently and directly interact with the Flowifier application.</Summary>
+    <PackageProjectUrl>https://www.newtonsoft.com/json</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\README.md" Link="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <None Include="..\README.md" Link="README.md" Pack="true" PackagePath="/" />
+    <None Include="..\LICENSE" Link="LICENSE" Pack="true" PackagePath="/" />
   </ItemGroup>
 
   <ItemGroup>

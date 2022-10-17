@@ -12,7 +12,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61164B8B-B72C-4F18-9608-9AB5B2AE4FBC}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
 		embold.yaml = embold.yaml
+		LICENSE = LICENSE
 		PUBLISH.md = PUBLISH.md
 		README.md = README.md
 	EndProjectSection
